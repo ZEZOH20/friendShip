@@ -1,0 +1,98 @@
+.container{
+
+	width:90%;
+    margin:auto;
+    
+}
+.background{
+	background: linear-gradient(to right, red , yellow);
+	margin:20px 0;
+	padding:40px;
+	font-size:20px; 
+	color:#000;
+}
+.info{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.image{
+	width:60%;
+	margin:auto;
+	margin-right:20px;
+
+}
+.image img{
+	width:30%;
+	border-radius:50%;
+	border:2px solid #fff;
+}
+.text{
+	width:43%;
+	text-align: center; 
+	padding:5px 20px 20px 40px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+
+.fa-facebook {
+        background: #3B5998;
+        color: white;}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}    
+.bobo a:hover{
+    background-color: black;
+}
+.bobo{
+    text-align: center;
+    
+}
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
+.navbar ul{
+ list-style-type: none;
+ background-color: black;
+ display: flex;
+ padding:0px;
+
+ }
+.navbar a{
+	color:white;
+	text-decoration:none;
+	font weigth :blod;
+	display: block;
+	padding:20px;
+}  
+.navbar a:hover{
+background-color:red;
+}
+#more {display: none;}
